@@ -4,6 +4,7 @@ body {
 }
 .navbar {
     background-color: white;
+    display: block;
 }
 
 .name {
@@ -11,12 +12,11 @@ body {
     background-color:rgb(21, 138, 138);
     color: white;
     font-size: 27px;
+    text-align: center;
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
-    margin-top: -10px;
-    margin-left: -15px;
-    margin-bottom: -8px;
+
 }
 
 .content {
@@ -35,8 +35,7 @@ a:hover {
 .info {
     background-color: white;
     color: rgb(117, 114, 114);
-    margin-top: 15px;
-    margin-left: -12px;
+    margin-top: 10px;
 }
 
 .aboutName {
@@ -59,6 +58,7 @@ img {
     height: 150px;
     width: 200px;
     margin-right: 20px;
+
 }
 
 form {
@@ -72,3 +72,37 @@ form {
     color: white;
 }
 
+.cards {
+    color: rgb(21, 138, 138);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: -5px;
+}
+
+.image {
+    padding-left: 10px;
+    padding-right: 15px;
+
+}
+
+.image2 {
+
+    padding-right: 15px;
+}
+
+.portpage {
+    color: rgb(21, 138, 138);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.portpage:hover {
+    color: rgb(21, 138, 138);
+}
+
+.footer {
+    background-color: rgb(104, 109, 109);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+
+}
